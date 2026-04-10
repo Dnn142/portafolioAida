@@ -10,25 +10,25 @@ const milestones = [
     number: '1',
     title: 'Génesis Editorial',
     description: 'Inicio en el maquillaje social y editorial, consolidando las bases de la colorimetría y la morfología del rostro.',
-    image: '/images/page_7_img_1.jpeg'
+    image: 'images/page_7_img_1.jpeg'
   },
   {
     number: '2',
     title: 'Evolución Plástica',
     description: 'Especialización en FX y Body Paint. Comienzo de la experimentación con texturas y prótesis para cine y teatro.',
-    image: '/images/page_7_img_2.jpeg'
+    image: 'images/page_7_img_2.jpeg'
   },
   {
     number: '3',
     title: 'Identidad Visual',
     description: 'Consolidación en el uso de colores vibrantes como herramientas de comunicación. Desde los degradados en "escamas" hasta el uso de acabados satinados que captan la luz.',
-    image: '/images/page_7_img_3.jpeg'
+    image: 'images/page_7_img_3.jpeg'
   },
   {
     number: '4',
     title: 'Maestría Conceptual',
     description: 'Maestra del delineado gráfico y las ilusiones ópticas. 8 años de experiencia avalan una técnica depurada y una visión artística madura.',
-    image: '/images/page_7_img_4.jpeg'
+    image: 'images/page_7_img_4.jpeg'
   }
 ];
 

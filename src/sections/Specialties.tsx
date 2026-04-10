@@ -11,7 +11,7 @@ const specialties = [
     icon: Ruler,
     title: 'Precisión Milimétrica',
     description: 'La geometría es mi pasión. Me especializo en trazos limpios, angulares y vanguardistas que transforman la mirada en una estructura arquitectónica. No uso el delineador para seguir el ojo, sino para redefinirlo.',
-    image: '/images/page_5_img_1.jpeg',
+    image: 'images/page_5_img_1.jpeg',
     stats: [
       { label: 'Precisión', value: '99%' },
       { label: 'Técnica', value: 'Avanzada' }
@@ -21,7 +21,7 @@ const specialties = [
     icon: Focus,
     title: 'Simetría Absoluta',
     description: 'Mi capacidad para combinar el trazo firme del delineado gráfico con la suavidad de las sombras me permite crear miradas tridimensionales que son, al mismo tiempo, nítidas y profundas.',
-    image: '/images/page_5_img_2.jpeg',
+    image: 'images/page_5_img_2.jpeg',
     stats: [
       { label: 'Balance', value: '100%' },
       { label: 'Armonía', value: 'Perfecta' }

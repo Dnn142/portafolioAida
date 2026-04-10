@@ -148,7 +148,7 @@ export default function Hero() {
         {/* Subtitle */}
         <p 
           ref={subtitleRef}
-          className="text-lg sm:text-xl lg:text-2xl text-muted-foreground uppercase tracking-[8px]"
+          className="text-lg sm:text-xl lg:text-2xl text-white uppercase tracking-[8px] drop-shadow-md"
         >
           Makeup Artist
         </p>

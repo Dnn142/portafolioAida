@@ -11,21 +11,21 @@ const services = [
     icon: Sparkles,
     title: 'Maquillaje Glam & Social',
     description: 'Acabados de lujo para eventos, novias y galas. Pieles blindadas y técnica de "red carpet".',
-    image: '/images/page_3_img_2.jpeg',
+    image: 'images/page_3_img_2.jpeg',
     features: ['Novias', 'Eventos', 'Galas', 'Red Carpet']
   },
   {
     icon: Camera,
     title: 'Sesiones de Fotos',
     description: 'Maquillaje diseñado para fotografía analógica y digital, cuidando la reflexión de la luz y el detalle HD.',
-    image: '/images/page_3_img_3.jpeg',
+    image: 'images/page_3_img_3.jpeg',
     features: ['Editorial', 'Analógico', 'Digital', 'HD']
   },
   {
     icon: Film,
     title: 'FX & Caracterización',
     description: 'Creación de heridas, quemaduras, envejecimiento y personajes completos para producciones de ficción.',
-    image: '/images/page_3_img_1.jpeg',
+    image: 'images/page_3_img_1.jpeg',
     features: ['Heridas', 'Envejecimiento', 'Personajes', 'Prótesis']
   }
 ];

@@ -12,14 +12,14 @@ const visionPoints = [
     icon: Lightbulb,
     title: 'Referente de Innovación',
     description: 'Ser reconocida como la autoridad principal en el área de Ilusiones Ópticas y Body Paint, destacando por la integración disruptiva de materiales físicos como cartulina en la creación de siluetas.',
-    image: '/images/page_4_img_1.jpeg'
+    image: 'images/page_4_img_1.jpeg'
   },
   {
     number: '02',
     icon: Crown,
     title: 'Liderazgo en el Sector FX',
     description: 'Posicionarme como la opción predilecta para producciones cinematográficas y audiovisuales que requieran caracterización avanzada y efectos especiales de alta complejidad.',
-    image: '/images/page_4_img_2.jpeg'
+    image: 'images/page_4_img_2.jpeg'
   }
 ];
 

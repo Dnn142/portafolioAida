@@ -126,7 +126,7 @@ export default function About() {
           <div ref={imageRef} className="relative order-first lg:order-none">
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
               <img 
-                src="/images/page_2_img_1.jpeg" 
+                src="images/page_2_img_1.jpeg" 
                 alt="Aída Ramírez Makeup Art"
                 className="w-full h-full object-cover"
               />

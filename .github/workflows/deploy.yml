@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # Asegúrate de que tu rama principal se llame main
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -10,14 +10,14 @@ permissions:
   id-token: write
 
 jobs:
-  build_site:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Node.js
-        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
@@ -28,14 +28,13 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Upload Artifacts
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Vite genera todo en la carpeta dist
           path: './dist'
 
   deploy:
-    needs: build_site
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages

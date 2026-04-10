@@ -8,32 +8,32 @@ gsap.registerPlugin(ScrollTrigger);
 
 const galleryImages = [
   {
-    src: '/images/page_8_img_1.jpeg',
+    src: 'images/page_8_img_1.jpeg',
     title: 'FX Horror',
     category: 'Efectos Especiales'
   },
   {
-    src: '/images/page_8_img_2.jpeg',
+    src: 'images/page_8_img_2.jpeg',
     title: 'Herida Realista',
     category: 'Caracterización'
   },
   {
-    src: '/images/page_6_img_1.jpeg',
+    src: 'images/page_6_img_1.jpeg',
     title: 'Body Paint Artístico',
     category: 'Body Paint'
   },
   {
-    src: '/images/page_6_img_2.png',
+    src: 'images/page_6_img_2.png',
     title: 'Ilusión Óptica',
     category: 'Ilusiones'
   },
   {
-    src: '/images/page_10_img_1.jpeg',
+    src: 'images/page_10_img_1.jpeg',
     title: 'Delineado Gráfico',
     category: 'Editorial'
   },
   {
-    src: '/images/page_7_img_2.jpeg',
+    src: 'images/page_7_img_2.jpeg',
     title: 'Caracterización',
     category: 'FX'
   }

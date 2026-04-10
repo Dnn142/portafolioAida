@@ -104,10 +104,10 @@ export default function About() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               {[
-                { number: '10+', label: 'Años de experiencia' },
-                { number: '500+', label: 'Proyectos realizados' },
-                { number: '50+', label: 'Producciones' },
-              ].map((stat, index) => (
+  { number: '10+', label: 'Años de Trayectoria' },
+  { number: '360°', label: 'Artista Integral' }, // Resalta que cubre todas las áreas
+  { number: 'Top', label: 'Acabados de Alta Definición' }, // Resalta la calidad técnica (HD)
+].map((stat, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 30 }}
